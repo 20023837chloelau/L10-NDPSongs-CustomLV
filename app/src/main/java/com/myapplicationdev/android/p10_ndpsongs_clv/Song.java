@@ -83,7 +83,7 @@ public class Song implements Serializable {
         for(int i = 0; i < stars; i++){
             starsString += "*";
         }
-        return title + "\n" + singers + " - " + yearReleased + "\n" + starsString;
+        return starsString;
 
     }
 }
